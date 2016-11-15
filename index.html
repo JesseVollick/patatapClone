@@ -236,7 +236,7 @@ function onKeyDown(event) {
   //if a is pressed play sound1
   if(keyData[event.key]){
     keyData[event.key].sound.play();
-    newCircle.fillColor = keyData[event.key].color;
+    newCircle.fillColor = 'red'//keyData[event.key].color;
   }
 
     Circles.push(newCircle)
